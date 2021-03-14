@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":1,},
+    {"id":{"name":"spr_stickProto","path":"sprites/spr_stickProto/spr_stickProto.yy",},"order":0,},
+    {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
