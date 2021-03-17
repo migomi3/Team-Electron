@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_saw",
+    "path": "sprites/spr_saw/spr_saw.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block",
+  "name": "obj_saw",
   "tags": [],
   "resourceType": "GMObject",
 }
