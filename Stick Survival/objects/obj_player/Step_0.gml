@@ -1,29 +1,36 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 2671105C
-/// @DnDArgument : "code" "if instance_place(x, y+1, obj_fullBlock) {gravity = 0}				//gravity implementation$(13_10)else if instance_place(x, y+1, obj_halfBlock) {gravity = 0}$(13_10)else {gravity = 0.4}											//TODO: needs fixing$(13_10)$(13_10)if (keyboard_check(ord("A")) || keyboard_check(vk_left)			//Player moves left$(13_10)		and !instance_place(x - move_speed, y, obj_fullBlock)$(13_10)		and !instance_place(x - move_speed, y, obj_halfBlock)){$(13_10)	x -= move_speed$(13_10)	image_xscale = -1$(13_10)}$(13_10)$(13_10)if (keyboard_check(ord("D")) || keyboard_check(vk_right)		//player moves right$(13_10)		and !instance_place(x + move_speed, y, obj_fullBlock)$(13_10)		and !instance_place(x + move_speed, y, obj_halfBlock)){$(13_10)	x += move_speed$(13_10)	image_xscale = 1$(13_10)}$(13_10)$(13_10)if (keyboard_check(ord("W")) || keyboard_check(vk_up)) {		//player jumps when standing on block$(13_10)	if instance_place(x, y+1, obj_fullBlock){vspeed -= jump_height}$(13_10)	if instance_place(x, y+1, obj_halfBlock){vspeed -= jump_height}$(13_10)	sprite_index = spr_player_jump$(13_10)}$(13_10)$(13_10)if (keyboard_check_pressed(vk_space) and melee_active) {$(13_10)	instance_create_layer(x, y, layer, obj_sword)$(13_10)	melee_active = false$(13_10)	alarm[0] = melee_cooldown$(13_10)}$(13_10)$(13_10)if(vspeed = 0) {sprite_index = spr_idleStrip} //changes character back to original position if not jumping$(13_10)$(13_10)if hp <= 0 {instance_destroy()}$(13_10)if (hspeed != 0) {$(13_10)	if (hspeed < 0) {hspeed += 1}$(13_10)	else {hspeed -=1}$(13_10)}"
+/// @DnDArgument : "code" "if instance_place(x, y+1, obj_fullBlock) {gravity = 0}				//gravity implementation$(13_10)else if instance_place(x, y+1, obj_halfBlock) {gravity = 0}$(13_10)else {gravity = 0.4}											$(13_10)$(13_10)if (state == 0) {sprite_index = spr_idleStrip}$(13_10)else {$(13_10)	if (state == 1) {sprite_index = spr_jumpStrip}$(13_10)	if (state == 2) {sprite_index = spr_runLeftStrip}$(13_10)	if (state == 3) {sprite_index = spr_runRightStrip}$(13_10)}$(13_10)$(13_10)if (keyboard_check(ord("A")) || keyboard_check(vk_left)			//Player moves left$(13_10)		and !instance_place(x - move_speed, y, obj_fullBlock)$(13_10)		and !instance_place(x - move_speed, y, obj_halfBlock)){$(13_10)	x -= move_speed$(13_10)	state = 2$(13_10)}$(13_10)$(13_10)if (keyboard_check(ord("D")) || keyboard_check(vk_right)		//player moves right$(13_10)		and !instance_place(x + move_speed, y, obj_fullBlock)$(13_10)		and !instance_place(x + move_speed, y, obj_halfBlock)){$(13_10)	x += move_speed$(13_10)	state = 3$(13_10)}$(13_10)$(13_10)if (keyboard_check(ord("W")) || keyboard_check(vk_up)) {		//player jumps when standing on block$(13_10)	if instance_place(x, y+1, obj_fullBlock){vspeed -= jump_height}$(13_10)	if instance_place(x, y+1, obj_halfBlock){vspeed -= jump_height}$(13_10)	state = 1$(13_10)}$(13_10)$(13_10)if (keyboard_check_pressed(vk_space) and melee_active) {$(13_10)	instance_create_layer(x, y, layer, obj_sword)$(13_10)	melee_active = false$(13_10)	alarm[0] = melee_cooldown$(13_10)}$(13_10)$(13_10)if (keyboard_check(vk_nokey)) {state = 0}$(13_10)$(13_10)if hp <= 0 {instance_destroy()}$(13_10)$(13_10)if (hspeed != 0) {$(13_10)	if (hspeed < 0) {hspeed += 1}$(13_10)	else {hspeed -=1}$(13_10)}"
 if instance_place(x, y+1, obj_fullBlock) {gravity = 0}				//gravity implementation
 else if instance_place(x, y+1, obj_halfBlock) {gravity = 0}
-else {gravity = 0.4}											//TODO: needs fixing
+else {gravity = 0.4}											
+
+if (state == 0) {sprite_index = spr_idleStrip}
+else {
+	if (state == 1) {sprite_index = spr_jumpStrip}
+	if (state == 2) {sprite_index = spr_runLeftStrip}
+	if (state == 3) {sprite_index = spr_runRightStrip}
+}
 
 if (keyboard_check(ord("A")) || keyboard_check(vk_left)			//Player moves left
 		and !instance_place(x - move_speed, y, obj_fullBlock)
 		and !instance_place(x - move_speed, y, obj_halfBlock)){
 	x -= move_speed
-	image_xscale = -1
+	state = 2
 }
 
 if (keyboard_check(ord("D")) || keyboard_check(vk_right)		//player moves right
 		and !instance_place(x + move_speed, y, obj_fullBlock)
 		and !instance_place(x + move_speed, y, obj_halfBlock)){
 	x += move_speed
-	image_xscale = 1
+	state = 3
 }
 
 if (keyboard_check(ord("W")) || keyboard_check(vk_up)) {		//player jumps when standing on block
 	if instance_place(x, y+1, obj_fullBlock){vspeed -= jump_height}
 	if instance_place(x, y+1, obj_halfBlock){vspeed -= jump_height}
-	sprite_index = spr_player_jump
+	state = 1
 }
 
 if (keyboard_check_pressed(vk_space) and melee_active) {
@@ -32,9 +39,10 @@ if (keyboard_check_pressed(vk_space) and melee_active) {
 	alarm[0] = melee_cooldown
 }
 
-if(vspeed = 0) {sprite_index = spr_idleStrip} //changes character back to original position if not jumping
+if (keyboard_check(vk_nokey)) {state = 0}
 
 if hp <= 0 {instance_destroy()}
+
 if (hspeed != 0) {
 	if (hspeed < 0) {hspeed += 1}
 	else {hspeed -=1}
