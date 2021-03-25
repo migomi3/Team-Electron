@@ -20,6 +20,7 @@
   "eventList": [
     {"isDnD":true,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":18,"eventType":5,"collisionObjectId":null,"parent":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":82,"eventType":5,"collisionObjectId":null,"parent":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":7,"value":"c_red","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"noHealthCol","tags":[],"resourceType":"GMObjectProperty",},
