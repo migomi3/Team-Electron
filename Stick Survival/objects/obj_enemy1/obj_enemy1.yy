@@ -29,6 +29,7 @@
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_fullBlock","path":"objects/obj_fullBlock/obj_fullBlock.yy",},"parent":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_halfBlock","path":"objects/obj_halfBlock/obj_halfBlock.yy",},"parent":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_enemy1","path":"objects/obj_enemy1/obj_enemy1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"100","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"hp","tags":[],"resourceType":"GMObjectProperty",},
