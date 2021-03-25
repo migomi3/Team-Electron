@@ -35,7 +35,7 @@
     "spriteId": {"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
