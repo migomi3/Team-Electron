@@ -23,6 +23,7 @@
     {"id":{"name":"obj_halfBlock","path":"objects/obj_halfBlock/obj_halfBlock.yy",},"order":7,},
     {"id":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},"order":11,},
     {"id":{"name":"spr_jumpStrip","path":"sprites/spr_jumpStrip/spr_jumpStrip.yy",},"order":17,},
+    {"id":{"name":"snd_playerHit","path":"sounds/snd_playerHit/snd_playerHit.yy",},"order":4,},
     {"id":{"name":"obj_spawner2","path":"objects/obj_spawner2/obj_spawner2.yy",},"order":18,},
     {"id":{"name":"obj_wave_logic","path":"objects/obj_wave_logic/obj_wave_logic.yy",},"order":16,},
     {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},"order":3,},
