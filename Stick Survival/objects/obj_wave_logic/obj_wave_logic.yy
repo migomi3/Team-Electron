@@ -24,6 +24,7 @@
     {"isDnD":true,"eventNum":1,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_wave_logic","path":"objects/obj_wave_logic/obj_wave_logic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":2,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_wave_logic","path":"objects/obj_wave_logic/obj_wave_logic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_wave_logic","path":"objects/obj_wave_logic/obj_wave_logic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":3,"eventType":2,"collisionObjectId":null,"parent":{"name":"obj_wave_logic","path":"objects/obj_wave_logic/obj_wave_logic.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"120","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"enemy1_spawn_interval","tags":[],"resourceType":"GMObjectProperty",},

@@ -24,6 +24,7 @@
     {"id":{"name":"obj_enemy_rightJumper","path":"objects/obj_enemy_rightJumper/obj_enemy_rightJumper.yy",},"order":13,},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},"order":10,},
     {"id":{"name":"obj_halfBlock","path":"objects/obj_halfBlock/obj_halfBlock.yy",},"order":7,},
+    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":0,},
     {"id":{"name":"obj_death","path":"objects/obj_death/obj_death.yy",},"order":11,},
     {"id":{"name":"spr_jumpStrip","path":"sprites/spr_jumpStrip/spr_jumpStrip.yy",},"order":17,},
     {"id":{"name":"snd_playerHit","path":"sounds/snd_playerHit/snd_playerHit.yy",},"order":4,},
