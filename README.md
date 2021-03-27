@@ -16,3 +16,4 @@ Instructions:
 Cheats:
     Alt+"H": add 10000 health and remove pushback effect from damage to player
     Alt+"K": Eliminate all enemies on the map
+    Alt+"H": add 10000 health
