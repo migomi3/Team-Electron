@@ -8,7 +8,7 @@ Team Members:
     Harshraj Thakor
 
 Game Name: 
-    Stick Survival
+    Sword Kill
 
 Instructions:
     Survive all 20 waves as best you can
