@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_enemyDeath.mp3",
-  "duration": 3.63602,
+  "soundFile": "snd_projectile.mp3",
+  "duration": 0.533,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_enemyDeath",
+  "name": "snd_projectile",
   "tags": [],
   "resourceType": "GMSound",
 }
