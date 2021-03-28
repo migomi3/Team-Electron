@@ -1,0 +1,91 @@
+Sound Credits
+
+SFX
+Enemy Hit - Fight Kicks A5 Sound Effect
+https://www.fesliyanstudios.com/royalty-free-sound-effects-download/kick-and-punch-74 
+
+Enemy dying - Male grunt, ouch, in pain 2
+
+https://www.zapsplat.com/music/male-grunt-ouch-in-pain-2/
+
+Enemy Shooting Bullets - Bow and arrow, bow elastic release, ping, shoot 2
+
+https://www.zapsplat.com/music/bow-and-arrow-bow-elastic-release-ping-shoot-2/
+
+Game Over Sound - Male voice says, game over 1
+
+https://www.zapsplat.com/music/male-voice-says-game-over-1/
+
+Sword draw - Sword draw or short scrape 1
+
+https://www.zapsplat.com/music/sword-draw-or-short-scrape-1/
+
+Game win - Multimedia processed male voice says you win 1
+
+https://www.zapsplat.com/music/multimedia-processed-male-voice-says-you-win-1/
+
+Player getting hit -  Martial arts punch
+
+https://mixkit.co/free-sound-effects/game/ 
+
+Music
+Background music - Offensive - War Background Music / Battle Cinematic
+
+https://soundcloud.com/ashamaluevmusic/offensive?in=%2Fashamaluevmusic%2Fsets%2Fmusic-for-gaming-videos
+
+
+
+
+Sprites
+
+All Tile set and environment Sprites
+https://pzuh.itch.io/free-sci-fi-platformer-tileset
+
+All Player Sprites
+https://elthen.itch.io/pixel-art-adventurer-sprites/
+
+All enemy Sprites
+https://craftpix.net/freebies/free-monster-enemy-game-sprites/
+
+spr_sword, spr_bullet by Kalia Jeffries(2021)
+
+
+Fonts
+
+Hang the DJ by Jakob Fischer
+
+Licensing
+
+SFX
+Following Sound Effects obtained from https://www.zapsplat.com
+Multimedia processed male voice says you win 1,
+Sword draw or short scrape 1,
+Male voice says, game over 1, 
+Bow and arrow, bow elastic release, ping, shoot 2
+Male grunt, ouch, in pain 2
+Fight Kicks A5 Sound Effect
+
+Martial arts punch (https://mixkit.co/)
+Licensed under Creative Commons: By Attribution 3.0
+http://creativecommons.org/licenses/by/3.0/
+
+Music
+Music: Offensive - AShamaluevMusic.
+Music Link: https://soundcloud.com/ashamaluevmusic/offensive?in=%2Fashamaluevmusic%2Fsets%2Fmusic-for-gaming-videos
+
+Environment Assets
+Free Sci-Fi Platformer Tileset by pzUH (itch.io) Copyright © 2021 itch corp
+
+Player Sprites/Animations
+Pixel Art Adventurer Sprites by Elthen's Pixel Art Shop (itch.io) Copyright © 2021 itch corp
+
+Enemy Sprite/Animations
+Free Monster Enemy Game Sprites © 2020 CraftPix. All rights reserved. (https://craftpix.net/)
+
+Other Art used
+spr_sword by Kalia Jeffries(2021)
+spr_bullet by Kalia Jeffries(2021)
+
+Font
+Hang the DJ by Jakob Fischer 
+copyright (c) Jakob Fischer at www.pizzadude.dk,  all rights reserved
