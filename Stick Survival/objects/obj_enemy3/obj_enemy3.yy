@@ -27,6 +27,7 @@
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":1,"collisionObjectId":null,"parent":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},"parent":{"name":"obj_enemy3","path":"objects/obj_enemy3/obj_enemy3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
